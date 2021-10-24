@@ -1,0 +1,8 @@
+
+<div class="container">
+    <button (click) = "showForm()" class="btn btn-primary">Add Task</button>
+    
+    <app-add-task *ngIf="show" ></app-add-task>
+
+    <app-list-task></app-list-task>
+</div>
